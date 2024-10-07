@@ -134,7 +134,7 @@ def main():
         engine.recommendations.clear()  # Limpiar recomendaciones previas
         engine.declare(Symptom(**symptoms))
         engine.run()
-
+#
         # Crear una nueva ventana para mostrar las recomendaciones
         result_window = Toplevel(root)
         result_window.title("Recomendaciones")
